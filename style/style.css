@@ -57,6 +57,22 @@ body {
     color: var(--color-se);
 }
 
+.notice{
+    display: flex;
+    gap: 8px;
+}
+.vector{
+    width: 16px;
+    height: 16px;
+}
+
+.text{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+}
+
 .buttons{
     display: flex;
     gap: 24px;
@@ -205,6 +221,6 @@ button {
     }
     
     .copy {
-        width: 580px; /* Ajusta el ancho al 100% del contenedor */
+        width: 580px; 
     }
 }
